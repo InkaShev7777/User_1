@@ -25,5 +25,6 @@ public:
 	void setAge(int);
 	void setName(string);
 	void setSurName(string);
+	void setId(long);
 };
 

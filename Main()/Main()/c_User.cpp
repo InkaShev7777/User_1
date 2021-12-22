@@ -50,3 +50,8 @@ void c_User::setSurName(string surname)
 {
 	this->surname = surname;
 }
+
+void c_User::setId(long id)
+{
+	this->id = id;
+}

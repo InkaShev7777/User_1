@@ -1,7 +1,7 @@
 #pragma once
 #include "c_User.h";
 #include<fstream>
-class c_Users : public c_User
+class c_Users
 {
 	int size;
 	c_User* mas;

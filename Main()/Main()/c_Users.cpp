@@ -8,12 +8,12 @@ c_Users::c_Users()
 
 void c_Users::Add(c_User& user)
 {
-	this->id++;
 	c_User* new_mas = new c_User[this->size + 1];
 	for (int i = 0; i < this->size; i++)
 	{
 		new_mas[i] = this->mas[i];
 	}
+	user.setId(size);
 	new_mas[this->size] = user;
 	delete[](mas);
 	this->mas = new_mas;
@@ -38,5 +38,4 @@ void c_Users::Save()
 		cout << "Запись успешна!!!\n";
 	}
 	of.close();
-	
 }
