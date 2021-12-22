@@ -18,5 +18,19 @@
     <ClCompile Include="Main().cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="c_User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c_Users.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="c_User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c_Users.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
